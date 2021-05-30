@@ -23,7 +23,7 @@ public class MyController {
 	@CrossOrigin(origins = "http://localhost:3000")
 	@PostMapping("/getData")
 	public String getData(@RequestBody String name) {
-		return "Hello Mr./ "+name;
+		return "Hello Mr. "+name;
 	}
 	
 	@CrossOrigin(origins = "http://localhost:3000")
